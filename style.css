@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+h3{
+    color: green;
+    font-size: 144px;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: green;
+    font-size: 50px;
+}
+@media(max-width:786px){
+    h3{
+        font-size: 50px;
+        font-weight: 300;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    h1{
+        color: white;
+        font-size: 30px;
+        padding: 10px 20px;
+        background-color: blueviolet;
+        border-radius: 8px;
+    }
+}
